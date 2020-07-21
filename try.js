@@ -1,7 +1,9 @@
 console.log('hello world');
 
 const add = function (a, b) {
-  return a + b;
+  const result = a + b;
+  console.log(result);
+  return result;
 };
 
 const sub = function (a, b) {
