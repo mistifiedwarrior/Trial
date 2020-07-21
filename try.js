@@ -11,3 +11,7 @@ const sub = function (a, b) {
 const multiply = function (a, b) {
   return a * b;
 };
+
+const remainder = function (a, b) {
+  return a % b;
+};
